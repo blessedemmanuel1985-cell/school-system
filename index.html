@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            color: #764ba2;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        .features {
+            text-align: left;
+            margin: 2rem 0;
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+        .features h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        .features ul {
+            list-style: none;
+        }
+        .features li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .features li:last-child {
+            border-bottom: none;
+        }
+        .features li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        .buttons {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: #764ba2;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background: #64408a;
+            transform: translateY(-2px);
+        }
+        footer {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e9ecef;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 School Management System</h1>
+        <p class="subtitle">Efficient Education Management Platform</p>
+        
+        <div class="features">
+            <h3>Key Features</h3>
+            <ul>
+                <li>Student Information Management</li>
+                <li>Course and Class Management</li>
+                <li>Grade Tracking and Reporting</li>
+                <li>Attendance Monitoring</li>
+                <li>Staff Administration</li>
+                <li>Parent Communication Portal</li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <a href="https://github.com/blessedemmanuel1985-cell/school-system" class="btn btn-primary">View on GitHub</a>
+            <a href="https://github.com/blessedemmanuel1985-cell/school-system/blob/main/README.md" class="btn btn-secondary">Documentation</a>
+        </div>
+
+        <footer>
+            <p>School Management System © 2026</p>
+            <p>Built with ❤️ for educational excellence</p>
+        </footer>
+    </div>
+</body>
+</html>
